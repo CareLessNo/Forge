@@ -1,0 +1,23 @@
+#品质设定
+Quality:
+  破损:
+    Chance: 51
+    Display: '&7破损'
+  普通:
+    Chance: 20
+    Display: '&f普通'
+  精良:
+    Chance: 15
+    Display: '&9精良'
+  罕见:
+    Chance: 10
+    Display:  '&5罕见'
+  史诗:
+    Chance: 8
+    Display: '&d史诗'
+  传说:
+    Chance: 5
+    Display: '&6传说'
+  破灭:
+    Chance: 1
+    Display: '&9&l破&0&l灭'

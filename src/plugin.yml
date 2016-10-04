@@ -2,4 +2,3 @@ name: ForgeWeapon
 Author: [Fain_Love, LonrY]
 version: 1.0
 main: cn.mcraft.Forge
-depend: [SuperFac]

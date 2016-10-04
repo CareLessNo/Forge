@@ -1,0 +1,32 @@
+#获取初始设置的锻造经验
+DefaultValue: 0.0
+#是否启用Mysql
+Mysql:
+  use: true
+  Address: '127.0.0.1'
+  Port: '3306'
+  DataBase: 'ForgePlayerData'
+  User: 'root'
+  Password: 'root'
+#进行锻造需要权限
+Permission: 'Forge.player'
+#VIP锻造师设定
+VIP:
+  Multiples: 1.5
+  NeedPerm: 'Forge.vip'
+#高级锻造师设定
+SeniorForger:
+  Multiples: 1.5
+  NeedLevel: 5
+#等级设定
+Levels:
+  Level1: 50
+  Level2: 100
+  Level3: 250
+  Level4: 500
+  Level5: 800
+  Level6: 1200
+  Level7: 2000
+  Level8: 3000
+  Level9: 5000
+  Level10: 10000
