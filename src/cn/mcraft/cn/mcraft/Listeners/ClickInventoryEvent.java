@@ -13,6 +13,7 @@ implements Listener {
     @EventHandler
     public void onClickInventory(InventoryClickEvent e)
     {
+
         Inventory inv = e.getInventory();
         if (inv == null) return;
         if (!(e.getWhoClicked() instanceof Player)) return;
@@ -23,5 +24,6 @@ implements Listener {
 
         if (openinv == null) return;
         if (!openinv.getType().equals(InventoryType.CHEST)) return;
+
     }
 }
