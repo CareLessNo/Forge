@@ -1,6 +1,7 @@
 package cn.mcraft;
 
 import cn.mcraft.cn.mcraft.Listeners.ClickInventoryEvent;
+import cn.mcraft.cn.mcraft.Utils.SQLUtil;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -24,6 +25,7 @@ extends JavaPlugin
         setupEconomy();
         EnableListener();
         saveResource("Quality.yml", false);
+        SQLUtil.createTable();
     }
 
     private boolean EnableListener()
